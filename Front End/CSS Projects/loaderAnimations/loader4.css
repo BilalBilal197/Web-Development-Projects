@@ -1,0 +1,21 @@
+
+@keyframes loader4
+{
+    50%{
+        transform: rotate(180deg);
+        border-radius: 0;
+        width: 75px;
+        height: 75px;
+        /* border-width: 105px; */
+    }
+}
+
+.loader4{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 10px solid #fff;
+    border-top-color: burlywood;
+    border-left-color: burlywood;
+    animation:loader4 2s ease infinite;
+}
